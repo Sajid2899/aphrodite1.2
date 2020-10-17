@@ -1,0 +1,277 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #BFE0E0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background-image: linear-gradient(to right,rgba(0, 163, 92, 0), rgba(0, 163, 92, 1));
+    color: #000;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+.brand h1{
+    display: inline;
+    color: #D60143;
+    margin-left: 5px;
+}
+
+header #nam{
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 70px;
+}
+
+
+header a{
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: 1s ease;
+}
+
+header a:hover{
+    font-size: 23px;
+    color: #000;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header #brand{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin: 20px 0 40px 0;
+    
+}
+
+header .highlight, header .current a{
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+
+.showcase{
+    min-height: 200px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.showcase h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.showcase p{
+    margin-top: 100px;
+    font-size: 20px;
+    text-align: center;
+}   
+
+#boxes{
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    
+}
+
+#boxes .box img{
+    width: 230px;
+    height: 200px;
+    border-radius: 50;
+}
+
+
+#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+#sidebar h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#main-col{
+    float: left;
+    width: 65%;
+}
+
+.footer{
+    width: 100%;
+    font-weight: bolder;
+    display: block;
+}
+
+.innerfooter{
+    width: 90%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+
+.footeritem{
+    width: 40%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+#right{
+    float: right;
+}
+
+
+.footeritem h1{
+    padding: none;
+    border: 0 0;
+    margin: 0 0;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+}
+
+.footeritem p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.footer h2{
+    margin: 10px 0;
+    color: #000;
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.border{
+    height: 2px;
+    width: 40px;
+    background: #000;
+}
+
+.footer a{
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    transition: 1s ease;
+}
+
+.footer a{
+    color: #64AEFA;
+    transition: .5s linear;
+}
+
+.footer a:hover{
+    font-size: 130%;
+}
+
+#right ul li{
+    margin: 22px 0;
+    height: 25px;
+}
+
+#right ul i{
+    margin-right: 20px;
+}
+
+.social{
+    width: 100%;
+    columns: #ffffff;
+    text-align: center;
+    float: left;
+}
+
+.social a{
+    text-align: none;
+}
+
+.social i{
+    color: #000;
+    height: 15px;
+    width: 15px;
+    margin: 20px 5px;
+    padding: 10px;
+    transition: 1s ease;
+}
+
+.social i:hover{
+    width: 40px;
+}
+
+.footer_bottom{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#about{
+    color: #64AEFA;
+    transition: none; 
+}
+
+
+
+@media(max-width: 768px){
+    header #brand,
+    header nav,
+    header nav li,
+    #boxes .box,
+    .container{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer{
+        display: block;
+        width: 100%;
+    }
+
+    .footeritem{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}
+
